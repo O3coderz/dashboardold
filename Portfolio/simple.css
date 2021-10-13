@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ddd;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+/* this is empty header*/
+#mainheader {
+    background: black;
+    height: 65px;
+} 
+
+section#topSection {
+    position: sticky;
+    top: 0;
+}
+
+
+/* this is navigation bar*/
+nav.menuBar {
+    background: #BE3144;
+    float: right;
+    width: 100%;
+    height: 74px;
+    position: fixed;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Titillium Web';
+}
+
+.menuBar ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+.menuBar ul li {
+    display: inline-block;
+    margin: 4px;
+    margin-top: 0;
+    padding: 18px;
+    width: 100px;
+    text-align: center;
+}
+
+.menuBar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.menuBar ul li:hover {
+    background: #BA5E5E;
+}
+
+/* Introdusing section*/
+.Introdusing {
+    width: 100%;
+    background: #262629;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: -webkit-pictograph;
+}
+
+.Introdusing p {
+    color: #BE3144;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+.Introdusing h1 {
+    font-size: 70px;
+}
+
+/*This is our projects*/
+
+.all-project {
+    
+margin: 0;
+    
+padding: 0;
+    
+background: #45567D;
+    
+overflow: hidden;
+    
+width: 100%;
+}
+
+.all-project h1 {
+    text-align: center;
+    font-size: 55px;
+    border-bottom: 5px solid white;
+    display: inline;
+    width: 875px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: .9px;
+    margin-left: 300px;
+    word-spacing: 6px;
+    overflow: hidden;
+}
+
+/*Img css*/
+.ourProjects {
+    width: 400px;
+    float: left;
+    text-align: center;
+    
+    margin: 5px;
+    padding: 0px;
+    padding-top: 70px;
+    height: 400px;
+}
+
+.projects-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #45567D;
+    overflow: hidden;
+}
+
+.projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: .3rem solid white;
+    font-size: 45px;
+    font-family: -webkit-pictograph;
+    color: white;
+}
+
+
+.projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: .3rem solid white;
+    font-size: 45px;
+    font-family: -webkit-pictograph;
+    color: white;
+}
+
+.projects-grid {
+    display: grid;
+    grid-gap: 4rem;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    max-width: 1280px;
+    margin: 0;
+    margin-bottom: 6rem;
+    margin-left: 70px;
+}
+
+.project {
+    background: var(--main-gray);
+    box-shadow: 1px 1px 2px rgb(0 0 0 /50%);
+    border: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+p.projects-title {
+    font-size: 22px;
+    padding: 2rem .5em;
+    background: #434343d9;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+}
+
+.code {
+    color: #303841;
+    transitin: color .3s ease out;
+}
+.btn-show-all {
+    
+    text-align: center;
+    display: block;
+    background: gray;
+    color: black;
+    width: 128px;
+    height: 39px;
+    font-size: 30px;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+    padding: 4px;
+    padding-bottom: 10px;
+    margin-left: 34rem;
+    shaddow: 1px 1px 1px black;
+    }
+
+    .btn-show-all:hover{
+        color: white;
+        background: #BE3144;
+        transition: .5s;
+    }
+
+    
+    
+    .social-media {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background: #303841;
+        margin-top: -33px;
+    }
+    
+    
+    
+    .social-media h1 {
+        font-size: 40px;
+        display: block;
+        font-family: 'Titillium Web';
+        letter-spacing: 1px;
+        word-spacing: 10px;
+        padding-top: 80px;
+        height:25px;
+        color: white;
+    }
+    
+    .social-media i {
+        color: white;
+        font-size: 18px;
+        font-family: 'Titillium Web';
+        
+    }
+
+    
+
+.C-meadia {
+    font-size: 30px;
+    font-family: 'Titillium Web';
+}
+
+.C-meadia a {
+    margin: 15px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.copyright {
+    border-top: 4px solid #BE3144;
+    color: white;
+    font-size: 22px;
+    font-family: 'Titillium Web';
+}
+
+.copyright p {
+    display: inline-block;
+    margin: 13px;
+    padding: 28px;
+    font-size: 24px;
+    }
+
+    .C-meadia a:hover {
+        color:rgb(161, 157, 157);
+        transition: .5s;
+    }

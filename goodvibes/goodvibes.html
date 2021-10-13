@@ -1,0 +1,92 @@
+<! doctype html>
+	<html>
+		
+		<head>
+			<title>Good Vibes Form</title>
+			<link href="goodvibes.css" rel="stylesheet" type="text/css"/>
+
+		</head>
+
+		<body>
+			<h1 class="title">Good Vibes Form</h1>
+			<div id="wrapper">
+				<div class="alldocument">
+				<p class="heading">Tell us something positive that happened to you today.</p>
+			  </div>
+			 <div class="form">	
+				<div class="part">
+					<lavel for="name" id="name-lavel">Name</lavel>
+				</div>
+				<div class="inputareas">	
+				     <input type="text"id="name" class="input-fields" placeholder="Enter your name" required/>
+			    </div>
+			</div>
+			<div class="form">
+			  <div class="part">    
+				<lavel for="email" id="email-lavel">Email</lavel>
+			  </div>
+			  <div class="inputareas">				
+			    <input type="email" id="email" class="input-fields" placeholder="Enter your email address" />
+			 </div>
+			</div>
+			<div class="form">
+			   <div class="part">	 
+				<lavel for="number" id="number-lavel">On a scale of 1-10, how good was it?</lavel>
+			   </div>
+			   <div class="inputareas">	
+				 <input type="number" id="number" class="input-fields" placeholder="Enter a number between 1 and 10"  min="1" max="10" />
+               </div>
+			</div>
+			<div class="form">
+				<div class="part">
+					<lavel for="dropdown" id="dropdown-lavel">Where did it happen?</lavel>
+				</div>
+				<div class="inputareas">
+					<select name="Location of position event" id="drop-down" class="input-fields">
+						<option value="home">At home</option>
+						<option value="commute">On my commute</option>
+						<option value="work">At work</option>
+						<option value="outside">On the street</option>
+						<option value="other">Other</option>
+				    </select>		
+					
+				</div>
+			</div>
+			<div class="form">
+				<div class="part">
+					<lavel for="happened time">At what time of day did it happen?</lavel>
+				</div>
+				<div class="inputareas">
+					<input class="checkboxs"  name="user-recommend"  type="radio"/><b class="radio" checked=""> Morning</b><br/>
+					<input class="checkboxs"  name="user-recommend"  type="radio"/><b class="radio" checked=""> Afternon</b><br/>
+					<input class="checkboxs"  name="user-recommend"  type="radio"/><b class="radio" checked=""> Evening</b><br/>
+
+				</div>
+			</div>
+			<div class="form">
+				<div class="part">
+					<lavel for="feelings">"What emotions did you experience"<br/>
+				    "(Select all that apply)"</lavel>
+				</div>
+				<div class="inputareas">
+					<input type="checkbox" class="checkboxs" >Excited</br></br>
+					<input type="checkbox" class="checkboxs" >Humbled</br></br>
+					<input type="checkbox" class="checkboxs" >Elated</br></br>
+					<input type="checkbox" class="checkboxs" >Loved</br></br>
+					<input type="checkbox" class="checkboxs" >Enthusiastic
+				</div>
+			</div>
+			<div class="form">
+				<div class="part">
+					<lavel for="event-details">Please describe your positive experience.</lavel>
+				</div>
+				<div class="inputareas">
+					<textarea id="even-details" class="input-fields" style="height: 100px; width:300px" placeholder="Enter your experience here..."></textarea>
+				</div>
+			</div>
+			<button class="buttontag">Submit</button>
+
+
+		</div>
+		</body>
+	</html>

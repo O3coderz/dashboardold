@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.heading {
+    text-align: center;
+    margin: 5px;
+    background: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    opacity: .8;
+    width: 1524px;
+}
+.heading p {
+    padding: 0 50px 0 50px;
+    margin: 0 50px 0 50px;
+    font-size: 29px;
+    letter-spacing: .4;
+}
+.heading h1 {
+    font-family: sans-serif;
+}
+
+.heading p {
+    padding: 0 50px 0 50px;
+    margin: 0 50px 0 50px;
+    font-size: 29px;
+    letter-spacing: .4;
+    display: block;
+}
+
+.heading a {
+    color: white;
+    text-decoration: none;
+    background: #525151;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 33px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+.heading a:hover {
+    background-color: rgb(212, 209, 205);
+    color: rgba(7, 7, 7, 0.993);
+    transition: .8s ;
+}
+
+.webDetails {
+    text-align: center;
+    background: #EAEAEA;
+    padding: 35px;
+    margin: -4px;
+    font-size: 30px;
+    height: 300px;
+    width: 99%;
+}
+.webDetails p {
+    float: left;
+    width: 650px;
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: .5;
+}
+
+
+
+.services {
+    float: left;
+    width: 18%;
+    overflow: hidden;
+    margin: 5px;
+    
+    background: white;
+}
+
+.ourSite {
+    width: 1570px;
+    background: #333333;
+    margin: 0px;
+    padding: 0;
+    height: 580px;
+    
+}
+
+.services:first-child {
+    margin-left: 300px;
+}
+
+.services {
+    margin: 10px;
+    margin-top: 60px;
+}
+
+.services h3 {
+    color: cadetblue;
+    text-align: center;
+    font-size: 23px;
+    font-family: monospace;
+    letter-spacing: .2;
+    font-weight: 900;
+}
+
+.services p {
+    text-align: center;
+    padding: 12px;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 500;
+    color: darkgrey;
+    
+}
+
+.webControl {
+    width: 1529px;
+    background: lightgray;
+    height: 200px;
+    text-align: center;
+    padding: 22px;
+    padding-top: 50px;
+}
+
+.webControl h1 {
+    font-size: 45px;
+    font-family: -webkit-pictograph;
+}
+
+.webControl p {
+    font-size: 22px;
+    padding: 0 200px 0 200px;
+}
+
+.contact-about {
+    
+margin: 0;
+    
+overflow: hidden;
+    
+width: 1571px;
+    
+float: left;
+    
+height: 300px;
+}
+
+.contact {
+    float: left;
+    width: 714px;
+    padding: 22px;
+    background: #2690D4;
+    text-align: center;
+    color: white;
+    height: 300px;
+    font-size: 21px;
+}
+
+.About {
+    background: #333333;
+    color: white;
+    
+    width: 767px;
+}
+
+.footersection {
+    background: black;
+    color: white;
+}
+
+.footersection {
+    float: left;
+    width: 1571px;
+    height: 60px;
+    display: block;
+    padding-top: 22px;
+}
+
+.footersection h3 {
+    float: left;
+    margin: 10px;
+    width: 454px;
+    display: block;
+    text-align: center;
+}
+
+.footersection h3 {font-family: revert;
+    color: #5e5a5a;
+    font-size: 30px;
+}

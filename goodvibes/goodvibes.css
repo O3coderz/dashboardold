@@ -1,0 +1,94 @@
+body {
+	background-color: A9D7E9;
+}
+.title {
+	margin: auto;
+	color: #000000a3;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align:  center;
+	font-size: 45px;
+}
+.heading {
+	font-size: 25px;
+	font-family: normal;
+	color: #090808b5;
+	letter-spacing: .5px;
+}
+#wrapper {
+	background-color: F3F3F3;
+	width: 900px;
+	text-align: center;
+	margin: auto;
+	border-radius: 10px;
+	padding: 20px 10px 10px 10px;
+}
+ h1 {
+	padding-top: 10px;
+}
+.form {
+	position: static;
+	display: block;
+}
+.part {
+	display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 7px;
+    vertical-align: top;
+    margin-top: 10px;
+    font-size: 20px;
+
+
+}
+.inputareas {
+	display: inline-block;
+    text-align: left;
+    width: 50%;
+    vertical-align: middle;
+    padding: 14px;
+}
+
+.input-fields {
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	outline: none;
+	padding-left: 10px;
+	font-size: 15px;
+
+}
+.checkboxs {
+	display: inline-block;
+    margin-right: 0.625rem;
+    min-height: .25rem;
+    min-width: .75rem;
+
+}
+.radio {
+	display: inline-block;
+	margin-right: 0.625rem;
+	min-height: .25rem;
+    min-width: .75rem;
+}
+
+b {
+	font-weight: 5px;
+	color: #090808b5;
+}
+
+.buttontag {
+	margin: auto;
+	width: 150px;
+	height: 40px;
+	border-style: none;
+	background-color: #057f7fc4;
+	color: white;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.buttontag:hover {
+    color: black;
+    background-color: #a9d7e9e0;
+}

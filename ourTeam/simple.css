@@ -1,0 +1,171 @@
+.sectitle {
+    font-family: monospace;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+    padding: 20px;
+}
+.teamPersons {
+    overflow: hidden;
+}
+.singlePerson {
+    width: 330px;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+    
+}
+.singlePerson:last-child {
+    margin-right: 0px;
+
+}
+.singlePerson img {
+    width: 100%;
+    transition: .3s;
+
+}
+.personinfo {
+    padding: 22px 15px;
+    text-align: center;
+    font-family: sans-serif;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.personinfo h3 {
+    font-size: 20px;
+}
+
+.personinfo p {
+    font-size: 14px;
+    color: darkgrey;
+    margin-top: 8px;
+}
+
+.joinTeamButton {
+    display: grid;
+    margin-top: 70px;
+    padding: 22px 25px;
+    place-items: center;
+}
+
+.JoinTeamButton button {
+    background: #3b3a3aeb;
+    color: white;
+    padding: 11px 22px;
+    font-size: 23px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    letter-spacing: 3px;
+}
+
+.JoinTeamButton button:hover {
+    background: #d77546c9;
+    color: black;
+}
+
+.personImg {
+    overflow: hidden;
+    position: relative;
+}
+
+
+.socialIcons {
+    width: 170px;
+    position: absolute;
+    text-align: center;
+    bottom: 50px;
+    left: 38%;
+    transform: translateX(-50px);
+}
+.socialIcons a {
+    width: 20px;
+    height: 20px;
+    display: block;
+    overflow: hidden;
+    background: red;
+    float: left;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    border-radius: 100%;
+    padding: 5px;
+    color: white;
+    margin: 5px;
+    transition: .3s;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+ 
+.socialIcons a:first-child{
+    background: #528fc3e3;
+    opacity: 0;
+    transition: .9s;
+}
+
+.socialIcons a:nth-child(2) {
+    background: skyblue;
+    opacity: 0;
+    transition: .7s;
+}
+
+.socialIcons a:nth-child(3) {
+    background: cadetblue;
+    opacity: 0;
+    transition: .5s;
+}
+.socialIcons a:last-child {
+    background: #ba8383f2;
+    opacity: 0;
+    transition: .3s;
+}
+
+
+
+
+
+.socialIcons a:hover {
+    background: whitesmoke;
+    color:black ;
+    
+}
+.singlePerson:hover .socialIcons a:first-child{
+    transform:translateY(20px);
+    opacity:1;
+}
+.singlePerson:hover .socialIcons a:last-child{
+    transform:translateY(20px);
+    opacity:1;
+}
+.singlePerson:hover .socialIcons a:nth-child(2){
+    transform:translateY(20px);
+    opacity:1;
+}
+.singlePerson:hover .socialIcons a:nth-child(3){
+    transform:translateY(20px);
+    opacity:1;
+}
+.singlePerson:hover .personImg img{
+    transform: scale(1.1)
+}
+
+
+
+
+
+
+.singlePerson:hover {
+    cursor:pointer;
+}
+
+
+
+
+

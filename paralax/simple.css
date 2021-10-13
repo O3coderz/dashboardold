@@ -1,0 +1,138 @@
+.wrapper {
+	width: 100%;
+	margin: auto;
+	height: 1200px;
+}
+.heading {
+	position: absolute;
+	top: 50%;
+	color: whitesmoke;
+	width: 100%;
+	letter-spacing: 9px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	display: inline-block;
+    overflow: hidden ;
+
+}
+.border {
+		background-color: #585757;
+		padding: 20px;
+		color: #fff;
+
+}
+	
+.section1 h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: inherit;
+    letter-spacing: 3px;
+    border-bottom: 4px solid gray;
+    width: 268px;
+    margin: auto;
+}
+
+.section1 {
+    background: #F4F4F4;
+    color: gray;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: .7px;
+    line-height: 1.3;
+}
+
+
+p {
+    text-indent: 60px;
+}
+.sectionone {
+	width: 100%;
+	margin: auto;
+	height: 800px;
+}
+
+.section2 h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: inherit;
+    letter-spacing: 3px;
+    border-bottom: 4px solid gray;
+    width: 268px;
+    margin: auto;
+}
+
+.section2 {
+	    background: #303841e0;
+	    color: #eae1e1;
+	    font-size: 20px;
+	    font-family: sans-serif;
+	    padding: 20px;
+	    text-align: justify;
+	    letter-spacing: 1px;
+	    word-spacing: .7px;
+	    line-height: 1.3;
+}
+
+
+p {
+    text-indent: 60px;
+}
+.sectiontwo {
+	width: 100%;
+	margin: auto;
+	height: 800px;
+}
+
+.section3 h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: inherit;
+    letter-spacing: 3px;
+    border-bottom: 4px solid #f2efef;
+    width: 305px;
+    margin: auto;
+    color: #e6dddded;
+
+}
+
+.section3 {
+    color: #e6dddded;
+    background: #191b1ed9;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: .7px;
+    line-height: 1.3;
+}
+
+
+p {
+    text-indent: 60px;
+}
+.sectionthree {
+	width: 100%;
+	margin: auto;
+	height: 800px;
+}
+
+.footer {
+	height: 600px;
+	color: whitesmoke;
+	width: 100%;
+	letter-spacing: 9px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	display: inline-block;
+    overflow: hidden
+}

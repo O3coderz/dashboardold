@@ -1,0 +1,95 @@
+* {
+	background: #F1F1F1;
+		font-family: sans-serif;
+
+}
+
+.headline {
+	margin: auto;
+	text-align: center;
+	color: #679bcffa;
+}
+
+.headline h1 {
+	font-size: 50px;
+}
+.headline h3 {
+	color: #398939d9;
+	font-size: 30px;
+}
+.Albertimg {
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	display: inline block;
+}
+.Albertimg p {
+	color: gray;
+}
+.abouteintein {
+	text-align: center;
+	padding-top: 20px;
+	color: green;
+}
+.abouteintein h4 {
+		border-bottom: 2px solid green;
+		width: 378px;
+		text-align: center;
+		margin: auto;
+
+}
+.details {
+	text-align: justify;
+	display: block;
+}
+.details ul li {
+	font-family: inherit;
+	line-height: 25px;
+	list-style: square;
+	list-style-type: decimal-leading-zero;
+
+}
+
+.details ul q {
+	font-size: 20px;
+	padding: 20px;
+	font-family: sans-serif;
+}
+.details p {
+	padding-left: 70px ;
+}
+.footer b {
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	padding-left: 30px;
+}
+.footer a {
+	text-decoration: none;
+	color: #58899ee3;
+	font-size: 22px;
+}
+.footer a:hover {
+	text-decoration: underline;
+	color: #0a9cd7e3;
+}
+
+li::first-letter{
+	color: red;
+	font-size: 25px;
+	font-weight: bold;
+}
+li::first-line {
+	color: gray;
+	font-variant: small-caps;
+}
+::marker {
+	color: darkblue;
+}
+::-moz-selection {/* code for selection */}
+::selection {
+	color: yellowgreen;
+	background: red;
+
+}
