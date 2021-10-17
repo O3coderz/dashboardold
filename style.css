@@ -115,13 +115,14 @@ input.sea-input {
 .NU_sphere_logo a {
     color: grey;
     text-decoration: none;
+    font-size: 25px;
 }
 
 /*------------------------------logo img--------------------------*/
 
 .NU_sphere_logo img {
-    width: 150px;
-    height: 75px;
+    width: 140px;
+    height: 40px;
 }
 
 /*---------------------------This is a side bar--------------------*/
