@@ -2,27 +2,156 @@
     
 
     .wrapper {
-        display: inline;
+        display: unset;
     }
 
     .menu-bar {
         width: 100%;
+        display: block;
+        padding-left: 120px;
+        margin: 0;
       
     }
 
-    .NU_sphere_logo {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-gap: 20px;
-    }
-    
-    .side-bar {
-        width: 100%;
-        display: inline-block;
+    .content-search {
+        
+        margin-left: 60px;
+        width:  95%;
     }
 
-    .content-search{
-        width: 100%;
+    /*.see-all {
+        margin-left: 60px;
+        width: 95%;
+    }*/
+
+    .container {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+    }
+
+    .new-popular {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+        margin-left: 60px;
+        overflow: hidden;
+    }
+    .index-popular-project {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+        margin-left: 60px;
+        
+    }
+
+    .index-popular-project .thumbnail {
+        width: 90%;
+        height: 200px;
+    }
+
+    .index-new-projects {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+        margin-left: 60px;
+        overflow: hidden;
+    }
+
+    .index-new-projects .thumbnail {
+        width: 90%;
+        height: 200px;
+    }
+
+
+
+    .NU_sphere_logo {
+        display: grid;
+        grid-template-columns: auto 40px;
+        grid-gap: 30px;
+    
+    }
+    
+    .sidde-bar {
+        position: fixed;
+        top: 0;
+        width: 78px;
+        margin: 0;
+        height: 100%;
+    }
+    .sidde-bar1 {
+        height: 100%;
+    }
+    .sidde-bar1 ul {
+        margin-top: 60px;
+    }
+
+    .sidde-bar1 {
+        width: 78px;
+        margin: 0;
+       
+    }
+    .NU_sphere_logo h2 {
+        display: none;
+    }
+   
+    .unorder-list {
+        
+        margin: 60px 0 0 0;
+        padding: 0 10px;
+    }
+    .NU_sphere_logo{
+        display: none;
+    }
+
+    .NU_sphere_logo h1 {
+        text-align: center;
+        display: inline-block;
+        position: fixed;
+        top: -7px;
+        left: 18px;
+        
+        
+        
+        
+    }
+
+    .NU_sphere_logo a {
+        display: none;
+    }
+
+    .unorder-list ul {
+        margin-top: 60px;
+    }
+    .unorder-list ul li{
+        text-align: center;
+        width: 43px;
+        margin: 3px;
+
+    } 
+
+    .unorder-list ul li a {
+        width: 40px;
+        margin: 0;
+        padding: 6px;
+        text-align: center;
+    }
+    .unorder-list ul li a span { 
+       display: none;
+    }
+    .unorder-list ul li a i{
+        opacity: 1;
+        font-size: 25px;
+    }
+
+
+
+    /*
+    .content-search {
+       width: 100%;
+       margin: 0;
+       display: grid;
+
 
     }
 
@@ -34,14 +163,16 @@
     }
     .unorder-list ul li a {
         font-size: 15px;
-        width: 120px;
+        width: auto;
         padding: 0;
         padding-left: 5px;
+        display: grid;
+        grid-template-columns: 20px auto;
     }
     .unorder-list ul li a.hide {
         display: none;
-    }
-
+    }*/
+  /*
     .new-popular {
         display: grid;
         grid-gap: 20px;
@@ -49,54 +180,84 @@
     }
 
     .container{
-        margin: 10px;
-
+        padding-left: 100px;
+        width: 100%;
     }
 
-    .content-search{
-        margin: 0;
-    }
+    
 
     .see-all {
         margin: 0;
         display: grid;
         grid-gap: 20px;
-        width: 724px;
+        width: auto;
         grid-template-columns:auto 100px;
-        margin: 10px 0 ;
+       
         
     }
 
     .all-projects {
-        width: 724px;
+        width: 100%;
         display: grid;
         grid-gap: 10px;
-        grid-template-columns: auto auto auto auto auto;
-        margin: 10px 0;
+        grid-template-columns: auto ;
+        
     }
     .project .thumbnail {
-        width: 130px;
-        height: 70px;
+        width: auto;
+        height: 170px;
+        
+        
+    }
 
     
 
+    .project .details {
+        
+        margin-bottom: 120px;
+    }
+
+    p.introduction {
+        font-size: 20px;
+        width: auto;
+        height: 70px;
+        margin-top:30px;
+    }
+
+    .project a.click-here {
+        font-size: 18px;
+        padding: 10px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        margin-top: 180px;
+    
     }
 
     .featured{
-        margin: 10px;
+       padding-left: 100px ;
+        width: 100%;
     }
     .feature-box{
         overflow: hidden;
+        margin: 0;
+        width: 100%;
+        display: grid;
+
         
     }
     .subfatured {
-        float: left;
+        width: 100%;
+        display: grid;
+
     
     }
 
     .subfatured a.fearture-icon {
         display: block;
-        width: 140px;
+        width: auto;
+        height: 150px;
+        font-size: 120px;
         padding-top: 15px;
     }
 
@@ -105,6 +266,134 @@
         width: 80%;
         margin-bottom: 20px;
         border-radius: none;
+    }*/
+
+    /*.sidde-bar1 {
+        width: 100%;
+        height: 200px;
+        display: grid;
+        position: unset;
+        margin: 5px;
+       
+    }*/
+
+    /*.container1{
+        margin: 5px;
+        width: 100%;
+        border-radius: unset;
+    }
+    .content-search1 {
+        width: 100%;
+        margin: 0;
+        display: grid;
+ 
+ 
+     }
+
+    .new-projects1 {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+    }
+
+    .project1 .thumbnail1 {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        
+    }
+
+    .project .thumbnail {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        
+    }
+
+    .project1 .thumbnail1:hover {
+        transform: scale(1.2);
+
+    }
+
+    .project1 span {
+        position: absolute;
+        margin-top: 30px;
+    }
+
+    .project1 p.intro {
+        
+        font-size: 17px;
+        width: auto;
+        height: 70px;
+        margin-top: 80px;
+    }
+
+    .project1 a.finder {
+        font-size: 18px;
+        padding: 0 10px;
+        
+        height: auto;
+        position: absolute;
+        margin-top: 180px;
+    
+    }*/
+
+    .unorder-list ul li {
+        position: relative;
+    }
+    .tooltip {
+        position: absolute;
+        top: 0;
+        left: 122px;
+        transform: translate(-50%, -50%);
+        background: #02e8f0;
+        color: black;
+        font-weight: bold;
+        box-shadow: 2px 5px  10px gray;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 6px;
+        width: 122px;
+        height: 35px;
+        display: block;
+        transition: 0s;
+        pointer-events: none;
+        opacity: 0;
+    }
+    
+    .unorder-list ul li:hover .tooltip{
+        transition: all .5s ease;
+        opacity: 1;
+        top: 50%;
+    
+    } 
+
+    /*.container1*/
+    .container1 {
+        margin-left: unset;
+        display: grid;
+        padding-left: 100px;
+        
+    }
+
+    .content-search1 {
+        display: grid;
+        grid-gap: 10px;
+        width: auto;
+    }
+
+    .new-projects1 {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+        width: 100%;
+    }
+
+    .thumbnail1 {
+        width: 100%;
+        height: 200px;
+        border-radius: 5px;
+        transition: 1.5s all ease-in-out;
     }
 
 

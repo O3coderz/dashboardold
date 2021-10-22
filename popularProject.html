@@ -23,7 +23,28 @@
         <!---------------------------This is Responsive CSS link----------------------------->
         <link rel="stylesheet" href="responsive.css">
 
+         
+        <style>
+            .NU_sphere_logo {
+                display: grid;
+                grid-gap: 10px;
+                grid-template-columns: auto 98px auto;
+                align-items: center;
+                margin-left: 45px;
+                margin-top: 20px;
+                text-align: center;
+                padding-right: 40px;
+                font-size: 20px;
+            }
+            .NU_sphere_logo h1{
+                color: rgb(252, 84, 0);
+            }
 
+            .NU_sphere_logo h2 {
+                margin-left: -28px;
+                color: #2b9001;
+            }
+        </style>
         <!-------------------------This fontawesome link------------------------------------------>
 
         <script src="https://kit.fontawesome.com/b071e9ccf3.js" crossorigin="anonymous"></script>
@@ -39,7 +60,7 @@
        
         <div class="sidde-bar1">
             <div class="NU_sphere_logo">
-                <img src="https://i.ibb.co/p4dC4qL/O3-coderz.png" alt="NU_Sphere_logo">
+                <h1>O<sub>3</sub></h1><h2>coderz</h2>
                 <a href="#"><i class="fas fa-align-justify"></i></a>
             </div>
 
@@ -47,20 +68,36 @@
 
                 <ul>
                         
-                    <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
-                    <li><a href="#"><i class="icon fas fa-user-tie"></i>My profile</a></li>
-                    <li><a href="#"><i class="icon fas fa-atlas"></i>website</a></li>
-                    <li><a href="All_Projects/menuBar/menu.html" target="_blank"><i class="icon fas fa-user"></i>user</a></li>
+                    <li><a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+                        <span class="tooltip">Home</span>
+                    </li>
+                    <li><a href="#"><i class="icon fas fa-user-tie"></i><span>My profile</span></a>
+                        <span class="tooltip">My profile</span>
+                    </li>
+                    <li><a href="#"><i class="icon fas fa-atlas"></i><span>website</span></a>
+                        <span class="tooltip">website</span>
+                    </li>
+                    <li><a href="All_Projects/menuBar/menu.html" target="_blank"><i class="icon fas fa-user"></i><span>User</span></a>
+                        <span class="tooltip">User</span>
+                    </li>
 
 
                     
-                    <li><a href="#"><i class="icon fab fa-youtube"></i>videos</a></li>
-                    
-                    <li><a href="All_Projects/aristotle/Aristotle.html" target="_blank"><i class="icon fas fa-lightbulb"></i>Tips</a></li>
+                    <li><a href="#"><i class="icon fab fa-youtube"></i><span>Videos</span></a>
+                        <span class="tooltip">Videos</span>
+                    </li>
+                    <li><a href="#"><i class="icon fas fa-hands-helping"></i><span>Feedback</span></a>
+                        <span class="tooltip">Feedback</span>
+                    </li>
+                    <li><a href="All_Projects/aristotle/Aristotle.html" target="_blank"><i class="icon fas fa-lightbulb"></i><span>Tips</span></a>
+                        <span class="tooltip">Tips</span>
+                    </li>
                     
 
-                    <li><a class="" href="#"><i class="icon fas fa-box"></i>QA</a></li>
-                    <li><a href="#"><i class="icon fas fa-hands-helping"></i>Feedback</a></li>
+                    <li><a class="" href="#"><i class="icon fas fa-box"></i><span>QA</span></a>
+                        <span class="tooltip">QA</span>
+                    </li>
+                    
                 </ul>
 
             </div>
@@ -179,7 +216,7 @@
         
         
         
-
+        <script src="javaScript.js"></script>
     </body>
 
 </html>
