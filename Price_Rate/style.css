@@ -1,0 +1,193 @@
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Scheherazade New', serif;
+font-family: 'Zen Kurenaido', sans-serif;*/
+
+/*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Kurenaido', sans-serif;
+}*/
+.pricing-plan_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.praicing-plan_highlighted {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+.pricing-plan {
+    width: 300px;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px gray;
+    overflow: hidden;
+    line-height: 1.5;
+    color: #555555;
+    font-size: 16px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    transition: 1s all ease-in-out;
+
+}
+
+.pricing-plan:hover {
+    transform: scale(1.1);
+   
+    color: #009578;
+    transition: .5s;
+    
+}
+
+.praicing-plan_header {
+    padding: 25px;
+    background: #009578;
+    color: #ffffff;
+    
+
+}
+
+.pricing-plan_title,
+.pricing-plan_summary {
+    margin: 0;
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+.pricing-plan_title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+.pricing-plan_summary {
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+
+.pricing-plan_description {
+    padding: 25px;
+}
+
+.pricing-plan_list {
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-plan_feature {
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 1.04rem;
+    font-weight: 700;
+}
+
+.pricing-plan_feature:not(:last-child) {
+    margin-bottom: .5rem;
+}
+
+.pricing-plan_feature::before {
+    content: "\2714";
+    color: #009578;
+    position: absolute;
+    left: 0;
+}
+
+.pricing-plan_action {
+    padding: 25px;
+    border-top: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-plan_button {
+    display: inline-block;
+    margin: 8px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color:#009578;
+    background: #ffffff;
+    border: 1px solid #009578;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    letter-spacing: .02em;
+    transition: .7s all ease-in-out;
+
+}
+.pricing-plan_button:hover {
+    background: #009578;
+    color: #ffffff;
+    transition: .7s;
+}
+
+/*Unit	Relative to
+
+1em- 16px     Font size of the parent, in the case of typographical properties like font-size, and font size of the element itself, in the case of other properties like width.
+1ex- 6px	  x-height of the element's font.
+1ch- 8px	  The advance measure (width) of the glyph "0" of the element's font.
+1rem- 16px	  Font size of the root element.
+1vw- 6.5px	  1% of the viewport's width.
+1vh- 8px	  1% of the viewport's height.
+1vmin- 6px    1% of the viewport's smaller dimension.
+1vmax- 12px   1% of the viewport's larger dimension.
+lh	          Line height of the element.
+*/
+
+
+
+.pricing-plan_cost {
+    margin: 0;
+    text-align: center;
+    font-size: 2em; /*1em-16px*/
+    color: #051f3d;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.pricing-plan_text {
+    font-size: 1em;/*1em-16px*/
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+}
+.pricing-plan_text strong {
+    color: rgb(1, 19, 51);
+    font-weight: bold;
+}
+
+.pricing-plan_spcial-text {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: #038c64;
+    letter-spacing: .7px;
+}
+/*------------------------------responsive---------------*/
+@media(max-width:768px) {
+    .pricing-plan_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pricing-plan {
+        display: block;
+        width: 70%;
+        margin: 50px;
+        align-items: center;
+        
+    }
+}

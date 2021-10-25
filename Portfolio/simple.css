@@ -148,19 +148,15 @@ width: 100%;
 
 .projects-grid {
     display: grid;
-    grid-gap: 4rem;
-    width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    max-width: 1280px;
-    margin: 0;
-    margin-bottom: 6rem;
-    margin-left: 70px;
+    grid-gap: 2rem;
+    grid-template-columns: 400px auto auto;
+    justify-content: center;
 }
 
 .project {
     background: var(--main-gray);
     box-shadow: 1px 1px 2px rgb(0 0 0 /50%);
-    border: 2px;
+    /* border: 2px; */
 }
 
 a {
@@ -169,8 +165,7 @@ a {
 }
 
 img {
-    display: block;
-    width: 100%;
+    width: 400px;
     height: 300px;
 }
 
@@ -181,14 +176,14 @@ p.projects-title {
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
 }
-}
+
 
 .code {
     color: #303841;
     transitin: color .3s ease out;
 }
 .btn-show-all {
-    
+    border-radius: 5px;
     text-align: center;
     display: block;
     background: gray;
@@ -200,45 +195,50 @@ p.projects-title {
     font-weight: 600;
     padding: 4px;
     padding-bottom: 10px;
+    text-transform: capitalize;
     margin-left: 34rem;
-    shaddow: 1px 1px 1px black;
-    }
+    box-shadow: .5px 0.5px 10px rgb(61, 60, 60);
+    transition: 1s all ease-in-out;
+}
 
-    .btn-show-all:hover{
-        color: white;
-        background: #BE3144;
-        transition: .5s;
-    }
+.btn-show-all:hover{
+    color: white;
+    background: #BE3144;
+    transition: .7s;
+}
+
+
+
 
     
     
-    .social-media {
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        background: #303841;
-        margin-top: -33px;
-    }
+.social-media {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #303841;
+    margin-top: -33px;
+}
     
     
     
-    .social-media h1 {
-        font-size: 40px;
-        display: block;
-        font-family: 'Titillium Web';
-        letter-spacing: 1px;
-        word-spacing: 10px;
-        padding-top: 80px;
-        height:25px;
-        color: white;
-    }
+.social-media h1 {
+    font-size: 40px;
+    display: block;
+    font-family: 'Titillium Web';
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    padding-top: 80px;
+    height:25px;
+    color: white;
+}
     
-    .social-media i {
-        color: white;
-        font-size: 18px;
-        font-family: 'Titillium Web';
+.social-media i {
+    color: white;
+    font-size: 18px;
+    font-family: 'Titillium Web';
         
-    }
+}
 
     
 
@@ -262,12 +262,52 @@ p.projects-title {
 
 .copyright p {
     display: inline-block;
-    margin: 13px;
-    padding: 28px;
+    margin: 10px;
     font-size: 24px;
+    text-align: center;
+    align-items: center;
+}
+
+.C-meadia a:hover {
+    color:rgb(161, 157, 157);
+    transition: .5s;
+}
+
+@media(max-width:768px) {
+    #topSection {
+        display: block;
     }
 
-    .C-meadia a:hover {
-        color:rgb(161, 157, 157);
-        transition: .5s;
+    .menuBar ul {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+        height: auto;
+        width: auto;
+        margin: 0 10px;
     }
+
+    .menuBar ul li {
+        display: inline-block;
+        width: 70px;
+        margin: 0;
+        align-items: center;
+    }
+
+    .projects-grid {
+        display: block;
+        width: 400px;
+    }
+
+    .projects-grid a {
+        display: block;
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    a.btn.btn-show-all {
+        width: 99%;
+        border-radius: 5px;
+    }
+
+}
