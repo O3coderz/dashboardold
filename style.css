@@ -17,8 +17,8 @@ body {
  
 .wrapper {
     display: grid;
-    grid-template-columns: 270px auto 250px;
-    margin-right: 20px;
+    grid-template-columns: auto 250px;
+    margin: 0 10px 0 255px;
 }
 
 /*-----------------------nav-------------------------------------*/
@@ -27,9 +27,9 @@ body {
 /*------------------menu-bar------------------------------------*/
  
 .menu-bar {
-    grid-column: 2 / span 2;
-    grid-row: 1;
-    width: 100%;
+    grid-column: 1 / span 2;
+    /* grid-row: 1; */
+    /* width: 100%; */
     height: 50px;
     background: #FFFFFF;
     box-shadow: 2px 2px 10px rgb(170, 168, 168);
@@ -90,6 +90,10 @@ input.sea-input {
   
  
 .sidde-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
     grid-column: 1;
     grid-row: 1 / span 2;
     background: #FFFFFF;
@@ -160,7 +164,7 @@ input.sea-input {
  
 .unorder-list ul li a:hover {
     background-image: linear-gradient(to right, rgba(228, 5, 5, 0.836), rgba(153, 13, 106, 0.836) );
-    color: white;
+    color: #ffff;
     border-radius: 4px;
     transition: .3s;
     box-shadow: 2px 2px 5px black;
@@ -224,13 +228,17 @@ i.fas.fa-hands-helping {
     padding: 8px;
     box-shadow: 2px 2px 5px grey;
     height: 45px;
-    margin: 20px;
+    margin: 20px 0;
     margin-top: 15px;
     background: #FFFFFF;
     border-radius: 5px;
 }
  
- 
+.content-search-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
 /*This is seainput search icon placeholder search project here*/
  
  
@@ -269,7 +277,7 @@ i.seainput.fas.fa-chevron-circle-right:hover{
     display: grid;
     grid-template-columns: auto 100px;
     padding: 5px;
-    margin: 12px;
+    margin: 12px 0;
     align-items: center;
     color: gray;
 }
@@ -298,21 +306,20 @@ i.seainput.fas.fa-chevron-circle-right:hover{
 .all-projects {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: auto auto auto auto auto;
-    margin: 16px;
+    grid-template-columns: auto auto auto auto;
+    /*margin: 16px;*/
 }
  
 .project {
-   
+    display: grid;
     line-height: 25px;
     align-items: center;
-    display: flex;
-
+    
 }
  
 .project .thumbnail {
-    width: 157px;
-    height: 100px;
+    width: 210px;
+    height: 130px;
     align-items: center;
     border-radius: 5px;
     position: relative;
@@ -321,7 +328,7 @@ i.seainput.fas.fa-chevron-circle-right:hover{
 
 }
 
-.project .thumbnail:hover {
+.project:hover .thumbnail {
     transform: scale(1.2);
     transition: 1s;
     opacity: .5;
@@ -617,7 +624,7 @@ input.seainput1 {
     transition: 1.5s all ease-in-out;
 }
 
-.project1 .thumbnail1:hover {
+.project1:hover .thumbnail1 {
     transform: scale(1.2);
     transition: 1s;
     opacity: .5;
@@ -728,3 +735,9 @@ input.seainput1 {
     top: 50%;
 
 } */
+/*23-10-2021*/
+
+.responsive-see-all-link {
+
+    display: none;
+}
